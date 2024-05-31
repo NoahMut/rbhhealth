@@ -17,25 +17,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <style>
-      .carousel {
-         
-            width: 100%;
+      .carousel-container {
+         width: 1301px;
             overflow: hidden;
+            position: relative;
+            left: -347px;
+
         }
         .carousel-inner {
-            position: relative;
           left: -335px;
             display: flex;
-            width: calc(425px * 10); /* Adjust based on number of images and their duplication */
-            animation: scroll 17s linear infinite;
+            overflow: hidden;
+            width: 100%;
+
+            animation: scroll 14s linear infinite;
+            width: calc(300px * 14); /* Adjust based on number of images and their duplication */
+            
+
         }
         .carousel-item {
             width: 300px;
             flex-shrink: 0;
+            overflow: hidden;
+
         }
         img {
             width: 100%;
             display: block;
+            
         }
         @keyframes scroll {
             0% {
@@ -188,8 +197,8 @@ font-weight: 900;
         }
 .gas{
     position: absolute;
-            top: -140px;
-            left: 7%;
+            top: -80px;
+            left: -1%;
             right: 50%;
             width: 1000px;
             height: 100%;
@@ -240,7 +249,7 @@ font-weight: 900;
         .whatis1 {
             position: relative;
             top: -220px;
-            left: -70px;
+            left: -180px;
             width: 700px;
             height: 100%;
             display: flex;
@@ -256,6 +265,21 @@ font-weight: 900;
         .whatis2 {
             position: relative;
             top: -15px;
+            left: 200px;
+            width: 700px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 16px;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+        }
+        .whatis3 {
+            position: absolute;
+            top: 40px;
             left: 200px;
             width: 700px;
             height: 100%;
@@ -288,8 +312,8 @@ font-weight: 900;
         
         .form{
             position: absolute;
-            top: 75%;
-            left: 250px;
+            top: 70%;
+            left: 300px;
             transform: translate(-50%, -50%);
             background-color: black;
             color: white;
@@ -358,7 +382,7 @@ font-weight: 900;
             position: absolute;
             width: 890px;
             height: 450px;
-            top: 270px;
+            top: 520px;
             left: -5px;
             background: rgb(245, 245, 245);
             z-index: 0;
@@ -388,8 +412,10 @@ font-weight: 900;
             position: absolute;
             left: -400px;
             width: 1375px;
+            overflow: hidden;
             height: 250px;
             top: 2680px;
+            margin: 0px 0px;
             background:  black;
         }
         .slideshow {
@@ -785,6 +811,7 @@ a {
                     </div>
                     <div class="beige3">
                         <strong> <p class="whatis2"> How We Operate</p>   </strong> 
+                        <strong> <p class="whatis3"> How We Operate</p>   </strong> 
                         <div ><img class="fly" src="images/Stayfly.png" alt=""></div>
 
                          </div>
@@ -1028,17 +1055,17 @@ questionContainers.forEach((container) => {
     const carousel = document.getElementById('carousel');
         let offset = 0;
         const shiftImage = () => {
-            offset -= 10000; // Shift by the width of the image
+            offset -= 600; // Shift by the width of the image
             carousel.style.transform = `translateX(${offset}px)`;
             
             // Check if the first element is completely out of view
-            if (-offset >= 10000) {
+            if (-offset >= 600) {
                 carousel.appendChild(carousel.firstElementChild); // Move first to last
-                offset += 10000; // Reset offset by the width of one image
+                offset += 600; // Reset offset by the width of one image
                 carousel.style.transform = `translateX(${offset}px)`; // Apply new offset without transition
             }
         };
-        setInterval(shiftImage, 900000); // Change images every 2 seconds
+        setInterval(shiftImage, 1244000); // Change images every 2 seconds
 </script>
 
 <script>
