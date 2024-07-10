@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <style>
+      
       .carousel-container {
          width: 1301px;
             overflow: hidden;
@@ -30,15 +31,26 @@
             overflow: hidden;
             width: 100%;
 
-            animation: scroll 14s linear infinite;
-            width: calc(300px * 14); /* Adjust based on number of images and their duplication */
+            animation: scroll 21s linear infinite;
+            width: calc(300px * 12); /* Adjust based on number of images and their duplication */
             
 
         }
         .carousel-item {
+            height: 150PX;
             width: 300px;
             flex-shrink: 0;
             overflow: hidden;
+
+        }
+        .carousel-item1 {
+            height: 150PX;
+            width: 300px;
+            flex-shrink: 0;
+            overflow: hidden;
+            position: relative;
+            top: -15px;
+
 
         }
         img {
@@ -68,12 +80,15 @@
 }
 .sub-title{
     font-family: 'Rajdhani', sans-serif;
+    position: relative;
+    top: -140px;
 
 }
 .sub-title1{
     font-family: 'Rajdhani', sans-serif;
     position: absolute;
-    top: 1490px;
+    top: 885px;
+    left: -280px;
 }
 /* ----------------services------------- */
 #services{
@@ -84,6 +99,8 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    position: relative;
+    top: -135px;
 }
 .services-list div{
     background: #262626;
@@ -165,7 +182,7 @@ font-weight: 900;
             background: rgb(0, 0, 0);
             z-index: 9999;
             border-bottom: 1px solid green;
-            border-color: rgb(39, 39, 39);
+            border-color: rgb(156, 156, 156);
         }
         .header ul {
             position: relative;
@@ -197,7 +214,7 @@ font-weight: 900;
         }
 .gas{
     position: absolute;
-            top: -80px;
+            top: -240px;
             left: -1%;
             right: 50%;
             width: 1000px;
@@ -232,8 +249,8 @@ font-weight: 900;
 
         .whatis {
             position: relative;
-            top: 300px;
-            left: -70px;
+            top: 230px;
+            left: -60px;
             width: 700px;
             height: 100%;
             display: flex;
@@ -246,10 +263,42 @@ font-weight: 900;
             line-height: 90px;
             word-spacing: 2px;
         }
+        .insurances {
+            position: relative;
+            top: -660px;
+            left: -70px;
+            width: 800px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 36px;
+            letter-spacing: -2px;
+            line-height: 46px;
+            word-spacing: 2px;
+        }
+        .meet {
+            position: relative;
+            top: -280px;
+            left: -465px;
+            width: 1300px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 55px;
+            letter-spacing: -2px;
+            line-height: 46px;
+            word-spacing: 2px;
+        }
         .whatis1 {
             position: relative;
-            top: -220px;
-            left: -180px;
+            top: -210px;
+            left: -188px;
             width: 700px;
             height: 100%;
             display: flex;
@@ -264,7 +313,7 @@ font-weight: 900;
         }
         .whatis2 {
             position: relative;
-            top: -15px;
+            top: -182px;
             left: 200px;
             width: 700px;
             height: 100%;
@@ -294,7 +343,7 @@ font-weight: 900;
         }
         .get-started-button {
             position: absolute;
-            top: 67.5%;
+            top: 78%;
             left: 20%;
             transform: translate(-50%, -50%);
             background-color: rgb(100, 246, 107);
@@ -382,7 +431,7 @@ font-weight: 900;
             position: absolute;
             width: 890px;
             height: 450px;
-            top: 520px;
+            top: 320px;
             left: -5px;
             background: rgb(245, 245, 245);
             z-index: 0;
@@ -390,7 +439,7 @@ font-weight: 900;
         }
         .leaf{
             position: absolute;
-            top: 17px;
+            top: 160px;
             left: 870px;
            width: 35%;
         }
@@ -404,8 +453,8 @@ font-weight: 900;
             position: absolute;
             left: -400px;
             width: 1375px;
-            height: 350px;
-            top: 2330px;
+            height: 635px;
+            top: 3430px;
             background:  rgb(34, 155, 45);
         }
         .beige3 {
@@ -414,7 +463,7 @@ font-weight: 900;
             width: 1375px;
             overflow: hidden;
             height: 250px;
-            top: 2680px;
+            top: 4066px;
             margin: 0px 0px;
             background:  black;
         }
@@ -582,7 +631,7 @@ a {
     left: -70px;
 }
 .arrow{
-    width: 50px;
+    width: 25px;
     position: relative;
     left: -80px;
     padding-left: 10px;
@@ -604,10 +653,179 @@ a {
     display: none; /* Initially hide the red box */
 
 }
+.tiny{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 40px;
+    
+}
+.tiny1{
+    position: relative;
+    top: -5px;
+    left: 35px;
+    height: 120px;
+    width: 120px;
+   
+}
+.missiontiny{
+    font-family: 'Rajdhani', sans-serif;
+            font-size: 23px;
+            position: relative;
+            top: -435px;
+            width: 750px;
+            left: 45px;
+}
+.missiontiny1{
+    font-family: 'Rajdhani', sans-serif;
+            font-size: 23px;
+            position: relative;
+            top: 290px;
+            width: 750px;
+            left: 40px;
+}
 .qa-pair{
     position: relative;
-    top: 200px;
+    top: 1600px;
 }
+
+.containern {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 20px;
+      position: relative;
+      top: -300px;
+      width: 1200px;
+      left: -315px;
+    }
+    .profilen {
+      display: flex;
+      width: 100%; /* Adjust width as needed */
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for separation */
+    }
+    .imagen {
+      flex: 1; /* Adjust flex ratio based on content size */
+      padding: 10px;
+    }
+    .imagen img {
+      width: 100%;
+      height: auto;
+      border: 5px solid green; /* Green outline around the image */
+    }
+    .textn { 
+      flex: 2; /* Adjust flex ratio based on content size */
+      padding: 10px;
+      text-align: left;
+    }
+    .headern {
+        font-family: 'Rajdhani', sans-serif;
+            font-size: 33px;
+      color: #333; /* Dark color for text */
+      left: 15px;
+position: relative;
+    }
+    .headern1 {
+        font-family: 'Rajdhani', sans-serif;
+            font-size: 33px;
+      color: #333; /* Dark color for text */
+      left: -2px;
+position: relative;
+    }
+    .subtextn {
+        font-family: 'Rajdhani', sans-serif;
+            font-size: 23px;
+            position: relative;
+            top: 10px;
+            left: 15px;
+    }
+    .subtext {
+        font-family: 'Rajdhani', sans-serif;
+            font-size: 23px;
+            position: relative;
+            top: 10px;
+    }
+    .profilen.reverse {
+      flex-direction: row-reverse; /* Inverts the order for the second profile */
+    }
+    #services{
+    position: relative;
+    top: -50px;
+}
+#providers{
+    position: relative;
+    top: 1250px;
+}
+#team{
+    position: relative;
+    top: 1250px;
+}
+.what{
+position: relative;
+top: -300px;
+font-family: 'Rajdhani', sans-serif;
+            font-size: 28px;
+            color: white;
+            left: 40px;
+}
+@media (max-width: 768px) {
+    .carousel-item {
+        width: 100%; /* Full width on smaller screens */
+    }
+    .container, .ren, .sub-title1, .whatis, .whatis1, .gas, .beige, .beige1, .beige2, .beige3 {
+        left: 0;
+        top: 0;
+        width: 100%; /* Adjust width and positioning on smaller devices */
+    }
+    .services-list div, .faq, .tab, .tabdes, .whatsis, .feature-img {
+        padding: 10px; /* Smaller padding on smaller devices */
+    }
+}
+
+@media (max-width: 480px) {
+    .header li {
+        margin-right: 20px; /* Less margin between menu items */
+    }
+    .services-list {
+        grid-template-columns: 1fr; /* Stack items on very small screens */
+    }
+}
+
+
+.contact-right{
+    flex-basis: 60%;
+    position: relative;
+    left: 495px;
+    top: 95px;
+}
+
+.contact-left p i{
+    color: #555c57;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.contact-right form{
+    width: 570px;
+}
+form input, form textarea{
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    margin: 8px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
     </style>
 </head>
 <body>
@@ -615,17 +833,23 @@ a {
         <nav>
             <ul>
                 <li class="logo"><a href="index.html"><img class ="logo" src="images/BLK.png" alt=""></a></li>
-                <li><a href="login" class="login-button">ABOUT</a></li>
-                <li><a href="login" class="login-button">SERVICES</a></li>
-                <li><a href="login" class="login-button">RESOURCES</a></li>
-                <li><a href="login" class="login-button">CONTACT</a></li>
-                <li><a href="signup" class="signup-button">NEW PATIENT FORM</a></li>
+                <li><a href="#services" class="login-button">SERVICES</a></li>
+                <li><a href="#providers" class="login-button">PROVIDERS</a></li>
+                <li><a href="team" class="login-button">OUR TEAM</a></li>
+                <li><a href="login" class="login-button">FAQ</a></li>
+                <li><a href="signup" class="signup-button">CONTACT</a></li>
             </ul>
         </nav>
     </header>
     <div class="white-bg"></div>
     <div class="beige">
 
+        <p class="missiontiny1"> Relief Behavioral Health is an outpatient behavioral clinic that provide psychiatric
+            service for people of all ages who are facing behavioral health concerns such as depression,
+            anxiety disorders, substance dependency, schizophrenia, personality disorders, self-harm
+            behavior, bipolar disorder, and sleep disorders. We provide mobile psychiatric care to patients in
+            their group homes and residential programs. Services include brief psychotherapy and
+            medication management. We also offer virtual and in-person office visits.</p>
     
     </div>
     
@@ -634,11 +858,14 @@ a {
         <div class="overlay">
             <p> Find support you need. 
                 Wherever you are. </p>
+             
         </div>
+        
+        <p class="what"> Personalized remote support suited for all</p>
         <div class="run">
-            <p class="whatis"> About RBH Relief</p>
+         <strong>  <p class="whatis"> About RBH Relief</p> </strong> 
         </div>
-
+   
      
       
         
@@ -648,49 +875,55 @@ a {
     <div class="faq">
         <div id="ren">
             <div class="container">
-                <h1 class="sub-title">Our Services</h1>
+                <div id="services">
+                </div>
+                <div id="providers">
+                </div>
+                <div id="team">
+                </div>
+                <h1 class="sub-title">What We Treat?</h1>
                 <div class="services-list">
                     <div>
                         <i class="fas fa-code"></i>
-                        <img class = "tiny" src="images/layer.png">
+                        <img class = "tiny" src="images/ocd.png">
                         <h2>OCD</h2>
                         <p class="domain">Obsessive-compulsive disorder (OCD) is a mental health issue characterized by persistent intrusive thoughts and repetitive actions known as compulsions. While OCD can be relatively benign, it often disrupts everyday tasks, work responsibilities, and interpersonal connections.</div>
                             <div>
                                 <i class="fas fa-crop-alt"></i>
-                                <img class = "tiny" src="images/.png">
+                                <img class = "tiny" src="images/anxiety.png">
                                 <h2>Anxiety</h2>
                                 <p class="domain">Fear, worry, uneasiness, or stress caused due to anxiety issues can be controlled when there is treatment available for help.</p>
                             </div> <div>
                                 <i class="fas fa-crop-alt"></i>
-                                <img class = "tiny" src="images/ng">
+                                <img class = "tiny" src="images/adhd.png">
                                 <h2>ADD/ADHD</h2>
                                 <p class="domain">ADHD (Attention-Deficit Hyperactivity Disorder), and ADD (Attention Deficit Disorder) are mental health conditions that makes it difficult to focus on work and school life.</p>
                             </div> <div>
                                 <i class="fas fa-crop-alt"></i>
-                                <img class = "tiny" src="images/fly.png">
+                                <img class = "tiny" src="images/depression.png">
                                 <h2>Depression</h2>
                                 <p class="domain">If you find yourself consistently experiencing low moods and disengagement from activities and relationships you once enjoyed, you might be dealing with depression.</p>
                             </div> <div>
-                                
+                    
                                 <i class="fas fa-crop-alt"></i>
-                                <img class = "tiny" src="images/fly.png">
+                                <img class = "tiny" src="images/bipolar.png">
                                 <h2>Bipolar Disorder</h2>
                                 <p class="domain">Bipolar disorder is A disorder associated with episodes of mood swings ranging from depressive lows to manic highs.</p>
                             </div><div>
                                 <i class="fas fa-crop-alt"></i>
-                                <img class = "tiny" src="images/fly.png">
+                                <img class = "tiny1" src="images/ptsd.png">
                                 <h2>PTSD</h2>
                                 <p class="domain">PTSD, known as Post Traumatic Stress Disorder, is a psychological condition where individuals struggle to recover after being exposed to or experiencing a deeply distressing event. The lingering impact of such trauma can be profound and persistent.</p>
                             </div><div>
                                 <i class="fas fa-crop-alt"></i>
-                                <img class = "tiny" src="images/fly.png">
+                                <img class = "tiny" src="images/subs.png">
                                 <h2>Substance Abuse</h2>
                                 <p class="domain">A person is under the influence of Substance Use if they do Excessive use of psychoactive drugs, such as alcohol, pain medications, or illegal drugs. And excess use of this substance can lead to physical, social, or emotional harm.</p>
                             </div>
                     <div>
 
                         <i class="fab fa-app-store"></i>
-                        <img class = "tiny" src="images/chat.png">
+                        <img class = "tiny" src="images/meds.png">
                         <h2>Medication Management</h2>
                                 <p class="domain">Medication management is essential for patients suffering from mental health problems or psychiatric issues to help them cope with symptoms.</p>
                          </div>
@@ -699,8 +932,8 @@ a {
         </div>
 
         <div class="beige1">
-            <p class="whatis1"> Our Mission</p>
-
+         <strong> <p class="whatis1"> Our Mission</p> </strong> 
+            <p class="missiontiny"> At Relief Behavioral Health, our mission is to provide compassionate and comprehensive psychiatric care to individuals of all ages facing behavioral health challenges. Through a commitment to personalized treatment, including brief psychotherapy and medication management, we strive to empower our patients on their journey towards mental well-being. We extend our services beyond traditional boundaries by offering mobile psychiatric care to group homes and residential programs, ensuring accessibility and support where it is needed most. Whether through virtual consultations or in-person visits, we are dedicated to fostering a therapeutic environment that promotes healing, resilience, and hope.</p>
     
         </div>
 
@@ -709,26 +942,27 @@ a {
     
 <div class="carousel-container">
     <div class="carousel-inner" id="carousel">
-        <img class="carousel-item" src="images/1.png" alt="Image 1">
-        <img class="carousel-item" src="images/2.png" alt="Image 2">
+        <img class="carousel-item" src="images/INS_1.png" alt="Image 1">
+        <img class="carousel-item" src="images/INS_2.png" alt="Image 2">
+        <img class="carousel-item" src="images/INS_3.png" alt="Image 1">
+        <img class="carousel-item" src="images/INS_4.png" alt="Image 2">       
+         <img class="carousel-item1" src="images/INS_5.png" alt="Image 2">
+        <img class="carousel-item" src="images/INS_6.png" alt="Image 2"><img class="carousel-item" src="images/INS_1.png" alt="Image 1">
+        <img class="carousel-item" src="images/INS_2.png" alt="Image 2">
+        <img class="carousel-item" src="images/INS_3.png" alt="Image 1">
+        <img class="carousel-item" src="images/INS_4.webp" alt="Image 2">       
+         <img class="carousel-item" src="images/INS_5.png" alt="Image 2">
+        <img class="carousel-item" src="images/INS_6.png" alt="Image 2"><img class="carousel-item" src="images/INS_1.png" alt="Image 1">
+        <img class="carousel-item" src="images/INS_2.png" alt="Image 2">
+        <img class="carousel-item" src="images/INS_3.png" alt="Image 1">
+        <img class="carousel-item" src="images/INS_4.webp" alt="Image 2">       
+         <img class="carousel-item" src="images/INS_5.png" alt="Image 2">
+        <img class="carousel-item" src="images/INS_6.png" alt="Image 2">
+       
 
         <!-- Add more images as needed -->
         <!-- Repeat images to ensure continuous scrolling -->
-        <img class="carousel-item" src="images/3.png" alt="Image 1">
-        <img class="carousel-item" src="images/4.png" alt="Image 2">       
-         <img class="carousel-item" src="images/5.png" alt="Image 2">
-        <img class="carousel-item" src="images/6.png" alt="Image 2">
-        <img class="carousel-item" src="images/7.png" alt="Image 2">
-        <img class="carousel-item" src="images/1.png" alt="Image 1">
-        <img class="carousel-item" src="images/2.png" alt="Image 2">
 
-        <!-- Add more images as needed -->
-        <!-- Repeat images to ensure continuous scrolling -->
-        <img class="carousel-item" src="images/3.png" alt="Image 1">
-        <img class="carousel-item" src="images/4.png" alt="Image 2">       
-         <img class="carousel-item" src="images/5.png" alt="Image 2">
-        <img class="carousel-item" src="images/6.png" alt="Image 2">
-        <img class="carousel-item" src="images/7.png" alt="Image 2">
 
         <!-- Add more images as needed -->
     </div>
@@ -765,14 +999,6 @@ a {
     <div class="answer">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
     </div>
-</div><div class="qa-pair">
-    <div class="question">
-        <div class="question-text">Q: What is Lorem Ipsum?</div>
-        <div class="arrow"><img class="arrow" src="images/arrow.png" alt=""></div>
-    </div>
-    <div class="answer">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-    </div>
 </div>
 <div class="qa-pair">
     <div class="question">
@@ -782,15 +1008,7 @@ a {
     <div class="answer">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
     </div>
-</div>  <div class="qa-pair">
-    <div class="question">
-        <div class="question-text">Q: What is Lorem Ipsum?</div>
-        <div class="arrow"><img class="arrow" src="images/arrow.png" alt=""></div>
-    </div>
-    <div class="answer">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-    </div>
-</div>  <div class="qa-pair">
+</div><div class="qa-pair">
     <div class="question">
         <div class="question-text">Q: What is Lorem Ipsum?</div>
         <div class="arrow"><img class="arrow" src="images/arrow.png" alt=""></div>
@@ -800,20 +1018,92 @@ a {
     </div>
 </div>
 
-                       <h1 class="sub-title1">Frequently Asked Questions</h1>
+                     <p class="insurances"> Our clients are insured by the best in the industry. We accept many major insurance plans.</p> 
+                     
+                     
+                     
+                     <p class="meet"> Meet Our Team of Trusted Professionals</p> 
+
+                       <div class="containern">
+                        <!-- First profile -->
+                        <div class="profilen">
+                          <div class="imagen">
+                            <img src="images/Meta headshot relief .jpg" alt="Profile Image 2" style="width:100%; height:auto;">
+                          </div>
+                          <div class="textn">
+                            <div class="headern"><strong>Dr. Meta Galabe DNP-PMHNP</strong> </div>
+                            <div class="subtextn">Meta Galabe, DNP-PMHNP-BC, is a board-certified psychiatric nurse
+                                practitioner at Relief Behavioral Health LLC in Phoenix, Arizona.
+                                Practicing in healthcare for over 15 years. Dr. Meta received her
+                                Bachelor of Science in Nursing (BSN) from the University of Arizona,
+                                Tucson in 2008 and her Doctor in Nursing Practice degree (DNP) in
+                                2020. Her extensive nursing background includes geriatrics, hospice,
+                                behavioral health, substance use and addiction specialty.</div>
+                          </div>
+                        </div>
+                        <!-- Second profile (inverted) -->
+                        <div class="profilen reverse">
+                          <div class="imagen">
+                            <img src="images/Kegne headshot relief .jpg" alt="Profile Image 1" style="width:100%; height:auto;">
+
+                          </div>
+                          <div class="textn">
+                            <div class="headern1"><strong>Dr. Kengne Fosso DNP-PMHNP</strong></div>
+                            <div class="subtext">Dr. Kengne Fosso obtained her BSN degree at Grand Canyon University in 2012 and she
+                                worked as neuro-med surg- RN right after nursing school, then transitioned to mental health a
+                                year later. She worked as psychiatric Registered Nurse for 7 years while working on her
+                                doctorate degree at the University of Arizona. Dr. Kengne Fosso obtained her doctoral degree
+                                from the University of Arizona in 2022 and she was a member for the honor program.
+                                When she is not taking care patients, she loves spending time with her family and friends.
+                                She is an active member of African organization, and she loves planning events. She enjoyed
+                                traveling and visit new places. She likes to experience new cultures and has been to 4 countries.</div>
+                          </div>
+                        </div>
+                      </div>
                        <div class="beige2">
-                   <strong> <p class="whatis2">  Complete this brief form to schedule your commitment-free assessment at our convenient Phoenix or Mesa locations, or call us at (480) 631-9895, and our helpful staff will assist you.</p>   </strong> 
+                   <strong> <p class="whatis2">Reach out to us to get more information on becoming a new patient and what services we can provide for you</p>   </strong> 
                    <div ><img class="leaf" src="images/icon.png" alt=""></div>
-                   <li><a href="signup" class="form">NEW PATIENT FORM</a></li>
                    <div class="gas">
                     <p>Take The First Step</p>
                 </div>
+                <div id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h1 class="sub-title">Contact Me</h1>
+              
+                                <div class="social-icons">
+                                    
+                                </div>
+                            </div>
+                            <div class="contact-right">
+                                <form name="submit-to-google-sheet">
+                                    <input type="text" name="Name" placeholder="Your Name" required>
+                                    <input type="email" name="Email" placeholder="Your Email" required>
+                                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                    <button type="submit" class="btn btn2">Submit</button>
+                                </form>
+                                <span id="msg"></span>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+                
                     </div>
                     <div class="beige3">
-                        <strong> <p class="whatis2"> How We Operate</p>   </strong> 
+                        <strong> <p class="whatis2"> Address</p>   </strong> 
                         <strong> <p class="whatis3"> How We Operate</p>   </strong> 
                         <div ><img class="fly" src="images/Stayfly.png" alt=""></div>
-
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
                          </div>
        
     </div>
